@@ -8,8 +8,8 @@ public class Square {
 
     // Teil 1 : 
     public static void squareZeichen(int loop){
-        for(int i = 0; i < 5; i++){
-            for(int j = 1; j <= 5;j++){
+        for(int i = 0; i < loop; i++){
+            for(int j = 0; j < loop;j++){
                 System.out.print("*");
             }
             System.out.println(" ");
